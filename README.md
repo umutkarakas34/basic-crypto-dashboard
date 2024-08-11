@@ -67,14 +67,6 @@ The user interface of the dashboard is designed to provide a clean and intuitive
 ![User Interface](images/2.png)
 
 
-## Getting Started
-
-To get started, follow the instructions provided in the [Installation](#installation) section of the repository.
-
-## Contributing
-
-We welcome contributions to enhance the dashboard. Please refer to the [Contributing](#contributing) section for guidelines on how to get involved.
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
