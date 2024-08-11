@@ -15,9 +15,36 @@ A cryptocurrency dashboard designed to provide real-time data for the top 10 cry
 
 The dashboard retrieves cryptocurrency data from the [CoinGecko API](https://coingecko.com), which provides comprehensive and real-time information about various cryptocurrencies. This ensures that users have access to the latest market data.
 
+```graphql
+{
+  coins {
+    id
+    name
+    symbol
+    price
+    oneHourChange
+    twentyFourHourChange
+    sevenDayChange
+    marketCap
+    volume24h
+  }
+}
+```
+This query fetches the following details for each cryptocurrency:
+
+- **ID:** Unique identifier for the cryptocurrency.
+- **Name:** Full name of the cryptocurrency.
+- **Symbol:** Symbol or ticker of the cryptocurrency.
+- **Price:** Current price of the cryptocurrency.
+- **One-Hour Change:** Percentage change in price over the past hour.
+- **24-Hour Change:** Percentage change in price over the past 24 hours.
+- **Seven-Day Change:** Percentage change in price over the past seven days.
+- **Market Cap:** Total market capitalization of the cryptocurrency.
+- **24-Hour Volume:** Total trading volume over the past 24 hours.
+
 ## Technologies Used
 
-- **Go:** A powerful programming language used for building the backend services, ensuring scalability and performance.
+- **Go:** A powerful programming language used for building backend services, ensuring scalability and performance.
 - **GraphQL:** A query language for APIs that allows for efficient and flexible data retrieval from the backend.
 - **React:** A JavaScript library for building the user interface, providing a dynamic and responsive experience.
 
