@@ -52,6 +52,21 @@ This query fetches the following details for each cryptocurrency:
 
 The goal of this project is to offer an up-to-date view of the cryptocurrency market, helping users stay informed about the latest trends and data for major cryptocurrencies.
 
+## UI and GraphQL Playground
+
+### GraphQL Playground
+
+The project includes a GraphQL Playground for testing and interacting with the GraphQL API. You can explore the API schema, run queries, and view the results directly from the playground. Here's a screenshot of the GraphQL Playground:
+
+![GraphQL Playground](images/1.png)
+
+### User Interface
+
+The user interface of the dashboard is designed to provide a clean and intuitive experience for tracking cryptocurrency data. It showcases real-time updates and detailed information about the top cryptocurrencies. Here's a screenshot of the UI:
+
+![User Interface](images/2.png)
+
+
 ## Getting Started
 
 To get started, follow the instructions provided in the [Installation](#installation) section of the repository.
